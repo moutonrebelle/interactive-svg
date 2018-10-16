@@ -17,7 +17,7 @@
   stroke-linecap: round;
 }
 
-#left-ear, #right-ear{
+#left-ear, #right-ear {
   transition: all .5s linear;
 }
 
@@ -27,7 +27,6 @@
 
 .bear:hover .right-ear {
   transform: translateY(-.5em);
-
 }
 
 .left-eye {
