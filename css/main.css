@@ -1,0 +1,55 @@
+.cls-1 {
+  fill: #673200;
+}
+
+.cls-2 {
+  fill: #ffaaca;
+}
+
+.cls-3 {
+  fill: #c65b00;
+}
+
+.cls-4 {
+  fill: #c65b00;
+  stroke: black;
+  stroke-width: 3px;
+  stroke-linecap: round;
+}
+
+#left-ear, #right-ear{
+  transition: all .5s linear;
+}
+
+.bear:hover .left-ear {
+  transform: translateY(-.5em);
+}
+
+.bear:hover .right-ear {
+  transform: translateY(-.5em);
+
+}
+
+.left-eye {
+  animation: bear 2s linear infinite;
+}
+
+.right-eye {
+  animation: bear 2s linear infinite;
+}
+
+@keyframes bear {
+
+  0% {
+    transform: translateX(-1em);
+  }
+
+  50% {
+    transform: translateX(1em);
+  }
+
+  100% {
+    transform: translateX(-1em);
+  }
+
+}
